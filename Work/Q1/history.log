@@ -1,0 +1,42 @@
+    1  cd ~
+    2  mkdir -p LINUX_COURSE_PROJECT/DOWNLOADS LINUX_COURSE_PROJECT/CODE LINUX_COURSE_PROJECT/DATA LINUX_COURSE_PROJECT/BACKUPS LINUX_COURSE_PROJECT/Work/Q1 LINUX_COURSE_PROJECT/Work/Q2 LINUX_COURSE_PROJECT/Work/Q3 LINUX_COURSE_PROJECT/Work/Q4
+    3  cd LINUX_COURSE_PROJECT/
+    4  git init
+    5  wget https://github.com/Telhai-Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz
+    6  tar -xzf downloads.tar.gz -C DOWNLOADS
+    7  git -m "downloaded downloads.tar.gz and extracted it into the DOWNLOADS directory"
+    8  git add .
+    9  git commit -m "downloaded downloads.tar.gz and extracted it into the DOWNLOADS directory"
+   10  rm downloads.tar.gz 
+   11  git checkout -b BR_Q1
+   12  cp DOWNLOADS/* CODE
+   13  cp DOWNLOADS/LINUX_COURSE_WORK-downloads/*.py CODE
+   14  cp DOWNLOADS/LINUX_COURSE_WORK-downloads/*.csv DOWNLOADS/LINUX_COURSE_WORK-downloads/*.txt DOWNLOADS/LINUX_COURSE_WORK-downloads/*.jpg DATA
+   15  cd Work/Q1
+   16  touch q1_output.txt
+   17  echo "Time: $(date)" >> q1_output.txt
+   18  echo "USER DETAILS: $(grep User /etc/passwd)" >> q1_output.txt
+   19  cd ..
+   20  echo "REPO: $(pwd)" >> Work/Q1/q1_output.txt
+   21  cd Work/Q1
+   22  echo "GithubUrl: "https://github.com/arielfeinstein/LINUX_COURSE_PROJECT" >> q1_output.txt
+   23  echo "GithubUrl: https://github.com/arielfeinstein/LINUX_COURSE_PROJECT" >> q1_output.txt
+   24  echo "VERSIONID: $(cat /etc/os-release | grep VERSION_ID | cut -d= -f2)" >> q1_output.txt
+   25  clear
+   26  apt search tree
+   27  clear
+   28  sudo apt update
+   29  sudo apt install tree
+   30  echo "----------------------------------" >> q1_output.txt
+   31  cd ..
+   32  echo "$(tree)" >> Work/Q1/q1_output.txt
+   33  echo "----------------------------------" >> Work/Q1/q1_output.txt
+   34  echo "$(find ~ -type f -name "*.sh")" >> Work/Q1/q1_output.txt
+   35  git branch
+   36  git add .
+   37  git commit -m "Copied all code files in DOWNLOADS directory to CODE directory. Copies all data files into DATA directory. Created a q1_output.txt file inside Work/Q1 and followed the orders from question 1"
+   38  git checkout master
+   39  git merge BR_Q1
+   40  git log
+   41  echo "$(git log)" > Work/Q1/qit_commits.log
+   42  history > Work/Q1/history.log

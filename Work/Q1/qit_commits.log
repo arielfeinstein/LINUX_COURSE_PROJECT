@@ -1,0 +1,11 @@
+commit 81ebe99a82db7ea6c7f06e35e5c045f9fedbdf00
+Author: ariel feinstein <arielfainshtein@icloud.com>
+Date:   Mon Mar 3 14:54:45 2025 +0200
+
+    Copied all code files in DOWNLOADS directory to CODE directory. Copies all data files into DATA directory. Created a q1_output.txt file inside Work/Q1 and followed the orders from question 1
+
+commit 08531c845220883502b21fdcd6483ffc27951c18
+Author: ariel feinstein <arielfainshtein@icloud.com>
+Date:   Mon Mar 3 13:41:09 2025 +0200
+
+    downloaded downloads.tar.gz and extracted it into the DOWNLOADS directory
