@@ -1,0 +1,282 @@
+Time: Mon Mar  3 14:26:46 IST 2025
+USER DETAILS: polkitd:x:989:989:User for polkitd:/:/usr/sbin/nologin
+REPO: /home/ubuntu/LINUX_COURSE_PROJECT
+GithubUrl: https://github.com/arielfeinstein/LINUX_COURSE_PROJECT
+VERSIONID: "24.04"
+----------------------------------
+.
+├── BACKUPS
+├── CODE
+│   ├── plant.py
+│   └── py1.py
+├── DATA
+│   ├── FIle_1.txt
+│   ├── File_2.txt
+│   ├── img1.jpg
+│   ├── img2.jpg
+│   ├── img3.jpg
+│   └── plants.csv
+├── DOWNLOADS
+│   └── LINUX_COURSE_WORK-downloads
+│       ├── FIle_1.txt
+│       ├── File_2.txt
+│       ├── img1.jpg
+│       ├── img2.jpg
+│       ├── img3.jpg
+│       ├── plant.py
+│       ├── plants.csv
+│       └── py1.py
+└── Work
+    ├── Q1
+    │   └── q1_output.txt
+    ├── Q2
+    ├── Q3
+    └── Q4
+
+11 directories, 17 files
+----------------------------------
+/home/ubuntu/GitExercise/commit.sh
+/home/ubuntu/DockerPython/docker_chart_script.sh
+/home/ubuntu/Pythonvenv/chart_script.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/OZnG.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/Mn9n.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/iGoh.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/ITfP.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/nDTk.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/jPIP.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/Mb4t.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/3Tqw.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/AmVL.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/03hS.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/0gl5.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/Grnn.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/M5tv.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/PQdQ.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/n1tv.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/NksJ.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/zPai.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/VUTC.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/OhLY.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/Jm8u.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/xGDG.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/RktO.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/Ue57.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/5Ley.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/sWSp.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/oQHD.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/2kVn.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/Iagm.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/6dpl.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/GxO6.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/aNtE.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/0Y5N.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/yMLQ.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/JJtK.sh
+/home/ubuntu/.vscode-server/data/User/History/-28913be1/mrU8.sh
+/home/ubuntu/.vscode-server/data/User/History/49422536/1C5I.sh
+/home/ubuntu/.vscode-server/data/User/History/49422536/SoSN.sh
+/home/ubuntu/.vscode-server/data/User/History/49422536/m44a.sh
+/home/ubuntu/.vscode-server/data/User/History/49422536/TTF2.sh
+/home/ubuntu/.vscode-server/data/User/History/49422536/G6hR.sh
+/home/ubuntu/.vscode-server/data/User/History/49422536/j3wK.sh
+/home/ubuntu/.vscode-server/data/User/History/49422536/mEYC.sh
+/home/ubuntu/.vscode-server/data/User/History/49422536/BUSJ.sh
+/home/ubuntu/.vscode-server/data/User/History/49422536/42VR.sh
+/home/ubuntu/.vscode-server/data/User/History/49422536/SMfA.sh
+/home/ubuntu/.vscode-server/data/User/History/49422536/CNFQ.sh
+/home/ubuntu/.vscode-server/data/User/History/49422536/wYCs.sh
+/home/ubuntu/.vscode-server/data/User/History/49422536/AXfP.sh
+/home/ubuntu/.vscode-server/data/User/History/49422536/5aml.sh
+/home/ubuntu/.vscode-server/data/User/History/4b822dbb/pDRy.sh
+/home/ubuntu/.vscode-server/data/User/History/4b822dbb/xy4K.sh
+/home/ubuntu/.vscode-server/data/User/History/-7bf7202e/Elj8.sh
+/home/ubuntu/.vscode-server/data/User/History/-20df9682/RALr.sh
+/home/ubuntu/.vscode-server/data/User/History/-20df9682/NijZ.sh
+/home/ubuntu/.vscode-server/data/User/History/-20df9682/8L6x.sh
+/home/ubuntu/.vscode-server/data/User/History/-20df9682/J334.sh
+/home/ubuntu/.vscode-server/data/User/History/-20df9682/7G99.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/5i3S.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/Q8dc.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/KHcR.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/PwO0.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/i1fQ.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/jLER.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/bUqw.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/8Yuh.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/tvrw.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/m7t4.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/RaUR.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/JQOB.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/x7Fg.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/FbPm.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/UR08.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/d88p.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/0aZl.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/A5R1.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/u6NM.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/vG6f.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/lpUq.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/VKIS.sh
+/home/ubuntu/.vscode-server/data/User/History/-2ad2ad38/GvZQ.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/nl1Z.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/psMy.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/odmt.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/ANtB.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/4sky.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/ifKC.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/rauh.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/O6yi.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/h6dB.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/wgQf.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/MjGU.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/di8O.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/7WBg.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/rt6K.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/OV7G.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/r5ZR.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/Gezt.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/n3kK.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/1myF.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/04oK.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/yBpT.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/L1rQ.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/Q7TC.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/oSPs.sh
+/home/ubuntu/.vscode-server/data/User/History/-7100cb89/IzEo.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/iOHp.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/hezQ.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/EHzf.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/sxo1.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/u0od.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/VwPr.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/Hktr.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/XN3g.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/zGMX.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/2oZN.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/xlSW.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/uPB9.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/BhPq.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/9eOc.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/CU8A.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/bMdb.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/Eghb.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/yAxR.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/LkEM.sh
+/home/ubuntu/.vscode-server/data/User/History/-282cd976/doSF.sh
+/home/ubuntu/.vscode-server/data/User/History/f083de2/zIpq.sh
+/home/ubuntu/.vscode-server/data/User/History/f083de2/HXM7.sh
+/home/ubuntu/.vscode-server/data/User/History/f083de2/AbQy.sh
+/home/ubuntu/.vscode-server/data/User/History/f083de2/QiYI.sh
+/home/ubuntu/.vscode-server/data/User/History/f083de2/yCe0.sh
+/home/ubuntu/.vscode-server/data/User/History/f083de2/jbt2.sh
+/home/ubuntu/.vscode-server/data/User/History/f083de2/QATa.sh
+/home/ubuntu/.vscode-server/data/User/History/f083de2/d6Dt.sh
+/home/ubuntu/.vscode-server/data/User/History/f083de2/rtr5.sh
+/home/ubuntu/.vscode-server/data/User/History/3a84f187/pRlH.sh
+/home/ubuntu/.vscode-server/data/User/History/3a84f187/PxYu.sh
+/home/ubuntu/.vscode-server/data/User/History/17c93d96/zQ6o.sh
+/home/ubuntu/.vscode-server/data/User/History/17c93d96/w6Sb.sh
+/home/ubuntu/.vscode-server/data/User/History/5a2f5e30/1FkJ.sh
+/home/ubuntu/.vscode-server/data/User/History/5a2f5e30/ElEH.sh
+/home/ubuntu/.vscode-server/data/User/History/5a2f5e30/qvzd.sh
+/home/ubuntu/.vscode-server/data/User/History/5a2f5e30/25kq.sh
+/home/ubuntu/.vscode-server/data/User/History/5a2f5e30/zV85.sh
+/home/ubuntu/.vscode-server/data/User/History/5a2f5e30/NFTq.sh
+/home/ubuntu/.vscode-server/data/User/History/5a2f5e30/iX3e.sh
+/home/ubuntu/.vscode-server/data/User/History/5a2f5e30/VyoO.sh
+/home/ubuntu/.vscode-server/data/User/History/5a2f5e30/3duK.sh
+/home/ubuntu/.vscode-server/data/User/History/5a2f5e30/iB7f.sh
+/home/ubuntu/.vscode-server/data/User/History/5a2f5e30/m6jT.sh
+/home/ubuntu/.vscode-server/data/User/History/5a2f5e30/9q9o.sh
+/home/ubuntu/.vscode-server/data/User/History/5a2f5e30/f5wr.sh
+/home/ubuntu/.vscode-server/data/User/History/5a2f5e30/LqV6.sh
+/home/ubuntu/.vscode-server/data/User/History/4c5271d2/gfx3.sh
+/home/ubuntu/.vscode-server/data/User/History/4c5271d2/2Ebb.sh
+/home/ubuntu/.vscode-server/data/User/History/4c5271d2/qfjo.sh
+/home/ubuntu/.vscode-server/data/User/History/4c5271d2/hv9m.sh
+/home/ubuntu/.vscode-server/data/User/History/4c5271d2/j8Xy.sh
+/home/ubuntu/.vscode-server/data/User/History/4c5271d2/Idj5.sh
+/home/ubuntu/.vscode-server/data/User/History/4c5271d2/a0m0.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/ms-vscode.js-debug/src/targets/node/terminateProcess.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/ssh-askpass.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/ssh-askpass-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/git-editor-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/git-editor.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node_modules/jschardet/scripts/run-workflow.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node_modules/jschardet/scripts/show-size-changes.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/check-requirements.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/base/node/ps.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/base/node/cpuUsage.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/ms-vscode.js-debug/src/targets/node/terminateProcess.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/ssh-askpass.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/ssh-askpass-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/git-editor-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/git-editor.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node_modules/jschardet/scripts/run-workflow.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node_modules/jschardet/scripts/show-size-changes.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/check-requirements.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/base/node/ps.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/base/node/cpuUsage.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/ms-vscode.js-debug/src/targets/node/terminateProcess.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/ssh-askpass.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/ssh-askpass-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/git-editor-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/git-editor.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/node_modules/jschardet/scripts/run-workflow.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/node_modules/jschardet/scripts/show-size-changes.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/check-requirements.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/base/node/ps.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/base/node/cpuUsage.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/ms-vscode.js-debug/src/targets/node/terminateProcess.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/git/dist/ssh-askpass.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/git/dist/ssh-askpass-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/git/dist/askpass.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/git/dist/git-editor-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/git/dist/git-editor.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/git/dist/askpass-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/node_modules/jschardet/scripts/run-workflow.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/node_modules/jschardet/scripts/show-size-changes.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/bin/helpers/check-requirements.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/bin/helpers/browser.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/base/node/ps.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/base/node/cpuUsage.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/extensions/ms-vscode.js-debug/src/targets/node/terminateProcess.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/extensions/git/dist/ssh-askpass.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/extensions/git/dist/ssh-askpass-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/extensions/git/dist/askpass.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/extensions/git/dist/git-editor-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/extensions/git/dist/git-editor.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/extensions/git/dist/askpass-empty.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/node_modules/jschardet/scripts/run-workflow.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/node_modules/jschardet/scripts/show-size-changes.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/helpers/check-requirements.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/bin/helpers/browser.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/out/vs/base/node/ps.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/out/vs/base/node/cpuUsage.sh
+/home/ubuntu/.vscode-server/cli/servers/Stable-138f619c86f1199955d53b4166bef66ef252935c/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+/home/ubuntu/Scripting/Exercises/Task2/task2.sh
+/home/ubuntu/Scripting/Exercises/ex1/first.sh
+/home/ubuntu/Scripting/Exercises/ex2/variables.sh
+/home/ubuntu/Scripting/Exercises/Task1/task1.sh
+/home/ubuntu/Scripting/first_script.sh
+/home/ubuntu/Scripting/Homeworks/HW1/combine.sh
+/home/ubuntu/Scripting/Homeworks/HW3/updater.sh
+/home/ubuntu/Scripting/Homeworks/HW2/updater.sh
+/home/ubuntu/Scripting/Lecture8/script4_CSV.sh
+/home/ubuntu/Scripting/Lecture8/script3_install.sh
+/home/ubuntu/Scripting/Lecture8/script1_iterate_files.sh
+/home/ubuntu/Scripting/Lecture8/script2_method.sh
+/home/ubuntu/DockerBashScript/convert_temp.sh
