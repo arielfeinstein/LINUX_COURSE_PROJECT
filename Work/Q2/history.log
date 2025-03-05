@@ -1,0 +1,35 @@
+    1  git checkout -b BR_Q2
+    2  cp CODE/plant.py Work/Q2
+    3  python3 -m pip install --upgrade pip
+    4  python3 -m pip install matplotlib
+    5  apt install python3-matplotlib
+    6  sudo apt install python3-matplotlib
+    7  python3
+    8  cd Work/Q2
+    9  python3 plant.py 
+   10  mkdir Diagrams_1
+   11  mv *.png Diagrams_1/
+   12  filename="diagrams_$(date +"%Y-%m-%d_%H-%M-%S").tar.gz"
+   13  echo $filename
+   14  tar -czvf ~/LINUX_COURSE_PROJECT/BACKUPS/${filename} Diagrams/*
+   15  tar -czvf ~/LINUX_COURSE_PROJECT/BACKUPS/${filename} Diagrams_1/*
+   16  git add .
+   17  git commit -m "Question 2 commit - all work finished"
+   18  git checkout master
+   19  git branch
+   20  git merge BR_Q2
+   21  cd ..
+   22  git add .
+   23  git stash
+   24  git checkout BR_Q2
+   25  git pop
+   26  git stash pop
+   27  git add .
+   28  git commit --amend
+   29  git checkout master
+   30  git merge BR_Q2
+   31  git push origin master
+   32  git push origin BR_Q2
+   33  git checkout BR-Q2
+   34  git checkout BR_Q2
+   35  history > Work/Q2/history.log
