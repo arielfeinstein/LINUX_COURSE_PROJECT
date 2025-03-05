@@ -1,0 +1,68 @@
+commit d9427e1d01b61a91a9f2a57e2d5db319b0492ee5
+Author: ariel feinstein <arielfainshtein@icloud.com>
+Date:   Wed Mar 5 16:51:40 2025 +0200
+
+    Completed Question 3
+
+commit 8a21e3429eadd4feecf87b971c7b5732ba88148e
+Merge: eb5309c 4f6ba41
+Author: ariel feinstein <arielfainshtein@icloud.com>
+Date:   Wed Mar 5 08:35:39 2025 +0200
+
+    Merge branch 'BR_Q2'
+
+commit 4f6ba4160b06cbb3fbc4955acd6efc1dc009e105
+Author: ariel feinstein <arielfainshtein@icloud.com>
+Date:   Wed Mar 5 08:34:11 2025 +0200
+
+    completed section 2 of question 2, COMPLETED QUESTION 2
+
+commit eb5309c692f9afb681a9816733d0fdca8c1d0a6c
+Merge: 1f44ea0 d5e8aa7
+Author: ariel feinstein <arielfainshtein@icloud.com>
+Date:   Wed Mar 5 07:39:24 2025 +0200
+
+    Merge branch 'BR_Q2'
+
+commit d5e8aa7c96c5d6ba9cf0d354204aceea2af648a1
+Author: ariel feinstein <arielfainshtein@icloud.com>
+Date:   Wed Mar 5 07:39:09 2025 +0200
+
+    added a history.log file to Q2 directory
+
+commit 1f44ea0ffa087f9aa553fb69710dfeffabafd195
+Merge: 195731a b006975
+Author: ariel feinstein <arielfainshtein@icloud.com>
+Date:   Wed Mar 5 07:34:38 2025 +0200
+
+    Merge branch 'BR_Q2'
+
+commit b0069758fb1bc9c5d0306d31d4c807fafb18286d
+Author: ariel feinstein <arielfainshtein@icloud.com>
+Date:   Wed Mar 5 07:29:54 2025 +0200
+
+    Question 2 commit - all work finished
+
+commit 195731a67108a19dfd5212e54997d92768a93c04
+Author: ariel feinstein <arielfainshtein@icloud.com>
+Date:   Wed Mar 5 07:29:54 2025 +0200
+
+    Question 2 commit - all work finished
+
+commit d0b9732f333e0b6d6a269bc8a606a218fc5c0f98
+Author: ariel feinstein <arielfainshtein@icloud.com>
+Date:   Mon Mar 3 15:04:22 2025 +0200
+
+    created a git_commits.log file and history.log file inside Q1
+
+commit 81ebe99a82db7ea6c7f06e35e5c045f9fedbdf00
+Author: ariel feinstein <arielfainshtein@icloud.com>
+Date:   Mon Mar 3 14:54:45 2025 +0200
+
+    Copied all code files in DOWNLOADS directory to CODE directory. Copies all data files into DATA directory. Created a q1_output.txt file inside Work/Q1 and followed the orders from question 1
+
+commit 08531c845220883502b21fdcd6483ffc27951c18
+Author: ariel feinstein <arielfainshtein@icloud.com>
+Date:   Mon Mar 3 13:41:09 2025 +0200
+
+    downloaded downloads.tar.gz and extracted it into the DOWNLOADS directory
