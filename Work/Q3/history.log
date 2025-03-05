@@ -1,0 +1,16 @@
+    1  git branch BR_Q3
+    2  git branch
+    3  git checkout -b BR_CSV
+    4  cd Work/Q3
+    5  touch menu.sh
+    6  chmod +x menu.sh 
+    7  cp ../Q2/plant.py .
+    8  clear
+    9  ./menu.sh 
+   10  clear
+   11  rm *.png
+   12  clear
+   13  rm 1.csv 2.csv
+   14  clear
+   15  ./menu.sh
+   16  history > history.log
