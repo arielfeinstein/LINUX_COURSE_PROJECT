@@ -1,0 +1,15 @@
+    1  git checkout -b BR_Q5
+    2  mkdir A
+    3  cd A
+    4  mkdir shared_volume
+    5  cp ~/LINUX_COURSE_PROJECT/DOWNLOADS/LINUX_COURSE_WORK-downloads/plant.py .
+    6  touch Dockerfile
+    7  docker run -it --name question_a_container --volume ./shared:/app python_matplotlib_img
+    8  docker start question_a_container 
+    9  docker exec -it question_a_container bash
+   10  clear
+   11  echo "ANSWER"
+   12  echo "two ways to share files between a docker container and the host are:
+1. by using a shared mount (using the --volume flag when creating the container). - This is the method that I used.
+2. using the docker cp command."
+   13  history > host_history.log
