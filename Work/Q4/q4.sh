@@ -9,23 +9,71 @@ log() {
     echo -e "$(date '+%Y-%m-%d %H:%M:%S') - $*" >> $LOG_FILE
 }
 
+# Usage function
+usage() {
+    echo "Usage: $0 [options]"
+    echo "Options:"
+    echo "  -c, -csv FILE       Specify the CSV file path"
+    echo "  -p, -python FILE    Specify the Python script path"
+    exit 1
+}
+
 log "Script started"
 
-# Parse arguments
+# Initialize variables
 CSV_FILE=""
-if [ $# -eq 1 ]; then
-    CSV_FILE=$1
-    log "CSV file provided as argument: $CSV_FILE"
-else
+PYTHON_SCRIPT="./plant.py"  # Default python script path
+
+# Parse arguments manually to support both short and long options
+i=1
+while [ $i -le $# ]; do
+    arg="${!i}"
+    case "$arg" in
+        -c|-csv)
+            i=$((i+1))
+            if [ $i -le $# ]; then
+                CSV_FILE="${!i}"
+                log "CSV file provided with $arg flag: $CSV_FILE"
+            else
+                log "ERROR: No value provided for $arg flag"
+                echo "ERROR: No value provided for $arg flag" >&2
+                usage
+            fi
+            ;;
+        -p|-python)
+            i=$((i+1))
+            if [ $i -le $# ]; then
+                PYTHON_SCRIPT="${!i}"
+                log "Python script path provided with $arg flag: $PYTHON_SCRIPT"
+            else
+                log "ERROR: No value provided for $arg flag"
+                echo "ERROR: No value provided for $arg flag" >&2
+                usage
+            fi
+            ;;
+        -h|-help|--help)
+            usage
+            ;;
+        *)
+            log "ERROR: Unknown option: $arg"
+            echo "ERROR: Unknown option: $arg" >&2
+            usage
+            ;;
+    esac
+    i=$((i+1))
+done
+
+# If CSV file is not provided with flag, try to find one
+if [ -z "$CSV_FILE" ]; then
     # Find first CSV file in current directory if no argument provided
     FIRST_CSV=$(find . -maxdepth 1 -name "*.csv" | head -n 1)
     if [ -n "$FIRST_CSV" ]; then
         CSV_FILE=$FIRST_CSV
-        log "No CSV file provided. Using found CSV file: $CSV_FILE"
+        log "No CSV file provided with flag. Using found CSV file: $CSV_FILE"
     else
         log "ERROR: No CSV file provided or found in current directory"
-        echo "ERROR: No CSV file provided or found in current directory" >> $ERROR_LOG
-        exit 1
+        echo "ERROR: No CSV file provided or found in current directory" >&2
+        usage
     fi
 fi
 
@@ -36,6 +84,14 @@ if [ ! -f "$CSV_FILE" ]; then
     exit 1
 fi
 log "CSV file found: $CSV_FILE"
+
+# Check if Python script exists
+if [ ! -f "$PYTHON_SCRIPT" ]; then
+    log "ERROR: Python script not found at $PYTHON_SCRIPT"
+    echo "ERROR: Python script not found at $PYTHON_SCRIPT" >> $ERROR_LOG
+    exit 1
+fi
+log "Python script found: $PYTHON_SCRIPT"
 
 # Check if requirements.txt exists
 REQUIREMENTS_FILE=""
@@ -65,14 +121,6 @@ else
     echo "Work/Q4/venv" > "$GITIGNORE_PATH"
     log "Created .gitignore and added Work/Q4/venv"
 fi
-
-# Check if plant.py exists
-if [ ! -f "./plant.py" ]; then
-    log "ERROR: plant.py script not found"
-    echo "ERROR: plant.py script not found" >> $ERROR_LOG
-    exit 1
-fi
-log "plant.py found"
 
 # Create and activate virtual environment
 if [ ! -d "./venv" ]; then
@@ -116,7 +164,7 @@ tail -n +2 "$CSV_FILE" | while IFS=, read -r plant height leaf_count dry_weight;
     # Create plant directory
     mkdir -p "./Diagrams/$plant"
     
-    # Run plant.py script with arguments
+    # Run PYTHON_SCRIPT script with arguments
 
     # Delete double quotes characters - because my python script needs data seperatly
     height=$(echo "$height" | tr -d '"')
@@ -128,8 +176,8 @@ tail -n +2 "$CSV_FILE" | while IFS=, read -r plant height leaf_count dry_weight;
     leaf_count_arr=($leaf_count)
     dry_weight_arr=($dry_weight)
 
-    log "Running plant.py for $plant with height="${height_arr[@]}", leaf_count="${leaf_count_arr[@]}", dry_weight="${dry_weight_arr[@]}""
-    OUTPUT=$(python plant.py --plant "$plant" --height "${height_arr[@]}" --leaf_count "${leaf_count_arr[@]}" --dry_weight "${dry_weight_arr[@]}" 2>> $ERROR_LOG)
+    log "Running "$PYTHON_SCRIPT" for $plant with height="${height_arr[@]}", leaf_count="${leaf_count_arr[@]}", dry_weight="${dry_weight_arr[@]}""
+    OUTPUT=$(python "$PYTHON_SCRIPT" --plant "$plant" --height "${height_arr[@]}" --leaf_count "${leaf_count_arr[@]}" --dry_weight "${dry_weight_arr[@]}" 2>> $ERROR_LOG)
     EXIT_CODE=$?
 
     # Move png files

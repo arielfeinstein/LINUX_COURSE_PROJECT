@@ -10,3 +10,13 @@
    10  filename="diagrams_question_4_$(date +"%Y-%m-%d_%H-%M-%S").tar.gz"
    11  tar -czvf ~/LINUX_COURSE_PROJECT/BACKUPS/${filename} Diagrams
    12  history > history.log
+   13  cd ..
+   14  git add .
+   15  git commit -m "Completed first section of question 4"
+   16  git branch
+   17  clear
+   18  cd Work/Q4
+   19  rm -r Diagrams/
+   20  ./q4.sh -python ../Q2/plant.py -c ~/DOWNLOADS/LINUX_COURSE_WORK-downloads/plants.csv
+   21  ./q4.sh -python ../Q2/plant.py -c ~/LINUX_COURSE_PROJECT/DOWNLOADS/LINUX_COURSE_WORK-downloads/plants.csv
+   22  history > history.log

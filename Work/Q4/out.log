@@ -103,3 +103,259 @@ Dry weight data: [2.5, 2.7, 3.0] g
 2025-03-06 10:19:37 - ERROR: Script failed for plant: Lily with exit code: 1
 2025-03-06 10:19:37 - Deactivating virtual environment
 2025-03-06 10:19:37 - Script completed successfully
+2025-03-06 11:27:48 - Script started
+2025-03-06 11:27:48 - Python script path provided with -p flag: plant.py
+2025-03-06 11:27:48 - CSV file provided with -c flag: plants.csv
+2025-03-06 11:27:48 - CSV file found: plants.csv
+2025-03-06 11:27:48 - Python script found: plant.py
+2025-03-06 11:27:48 - Requirements file found: ./requirements.txt
+2025-03-06 11:27:48 - .gitignore file found at ../../.gitignore
+2025-03-06 11:27:48 - Work/Q4/venv already exists in .gitignore
+2025-03-06 11:27:48 - Virtual environment already exists
+2025-03-06 11:27:48 - Activating virtual environment
+2025-03-06 11:27:48 - Installing requirements from ./requirements.txt
+Collecting argparse (from -r ./requirements.txt (line 1))
+  Using cached argparse-1.4.0-py2.py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: matplotlib in ./venv/lib/python3.12/site-packages (from -r ./requirements.txt (line 2)) (3.10.1)
+Requirement already satisfied: contourpy>=1.0.1 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (1.3.1)
+Requirement already satisfied: cycler>=0.10 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (4.56.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (1.4.8)
+Requirement already satisfied: numpy>=1.23 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (2.2.3)
+Requirement already satisfied: packaging>=20.0 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (24.2)
+Requirement already satisfied: pillow>=8 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (11.1.0)
+Requirement already satisfied: pyparsing>=2.3.1 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (3.2.1)
+Requirement already satisfied: python-dateutil>=2.7 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in ./venv/lib/python3.12/site-packages (from python-dateutil>=2.7->matplotlib->-r ./requirements.txt (line 2)) (1.17.0)
+Using cached argparse-1.4.0-py2.py3-none-any.whl (23 kB)
+Installing collected packages: argparse
+Successfully installed argparse-1.4.0
+2025-03-06 11:27:49 - Processing CSV file: plants.csv
+2025-03-06 11:27:49 - Processing plant: Rose
+2025-03-06 11:27:49 - Running plant.py for Rose with height=50 55 60 65 70, leaf_count=35 40 45 50 55, dry_weight=2.0 2.2 2.5 2.7 3.0
+2025-03-06 11:27:51 - PNG files moved to ./Diagrams/Rose/
+2025-03-06 11:27:51 - Script output:
+Plant: Rose
+Height data: [50.0, 55.0, 60.0, 65.0, 70.0] cm
+Leaf count data: [35, 40, 45, 50, 55]
+Dry weight data: [2.0, 2.2, 2.5, 2.7, 3.0] g
+Generated plots for Rose:
+Scatter plot saved as Rose_scatter.png
+Histogram saved as Rose_histogram.png
+Line plot saved as Rose_line_plot.png
+
+2025-03-06 11:27:51 - Script executed successfully for plant: Rose
+2025-03-06 11:27:51 - Processing plant: Tulip
+2025-03-06 11:27:51 - Running plant.py for Tulip with height=30 35 40 42, leaf_count=12 15 18 20, dry_weight=1.5 1.6 1.7 1.8
+2025-03-06 11:27:52 - PNG files moved to ./Diagrams/Tulip/
+2025-03-06 11:27:52 - Script output:
+Plant: Tulip
+Height data: [30.0, 35.0, 40.0, 42.0] cm
+Leaf count data: [12, 15, 18, 20]
+Dry weight data: [1.5, 1.6, 1.7, 1.8] g
+
+2025-03-06 11:27:52 - ERROR: Script failed for plant: Tulip with exit code: 1
+2025-03-06 11:27:52 - Processing plant: Sunflower
+2025-03-06 11:27:52 - Running plant.py for Sunflower with height=120 125 130 135, leaf_count=50 55 60 65, dry_weight=5.0 5.5 6.0 6.5
+2025-03-06 11:27:53 - PNG files moved to ./Diagrams/Sunflower/
+2025-03-06 11:27:53 - Script output:
+Plant: Sunflower
+Height data: [120.0, 125.0, 130.0, 135.0] cm
+Leaf count data: [50, 55, 60, 65]
+Dry weight data: [5.0, 5.5, 6.0, 6.5] g
+
+2025-03-06 11:27:53 - ERROR: Script failed for plant: Sunflower with exit code: 1
+2025-03-06 11:27:53 - Processing plant: Daffodil
+2025-03-06 11:27:53 - Running plant.py for Daffodil with height=40 45 50 55, leaf_count=15 18 20 22, dry_weight=1.8 2.0 2.2 2.5
+2025-03-06 11:27:54 - PNG files moved to ./Diagrams/Daffodil/
+2025-03-06 11:27:54 - Script output:
+Plant: Daffodil
+Height data: [40.0, 45.0, 50.0, 55.0] cm
+Leaf count data: [15, 18, 20, 22]
+Dry weight data: [1.8, 2.0, 2.2, 2.5] g
+
+2025-03-06 11:27:54 - ERROR: Script failed for plant: Daffodil with exit code: 1
+2025-03-06 11:27:54 - Processing plant: Lily
+2025-03-06 11:27:54 - Running plant.py for Lily with height=60 65 70, leaf_count=20 22 24, dry_weight=2.5 2.7 3.0
+2025-03-06 11:27:55 - PNG files moved to ./Diagrams/Lily/
+2025-03-06 11:27:55 - Script output:
+Plant: Lily
+Height data: [60.0, 65.0, 70.0] cm
+Leaf count data: [20, 22, 24]
+Dry weight data: [2.5, 2.7, 3.0] g
+
+2025-03-06 11:27:55 - ERROR: Script failed for plant: Lily with exit code: 1
+2025-03-06 11:27:55 - Deactivating virtual environment
+2025-03-06 11:27:55 - Script completed successfully
+2025-03-06 11:30:20 - Script started
+2025-03-06 11:30:20 - CSV file provided with -csv flag: /home/ubuntu/LINUX_COURSE_PROJECT/DOWNLOADS/LINUX_COURSE_WORK-downloads/plants.csv
+2025-03-06 11:30:20 - Python script path provided with -p flag: ../Q2/plant.py
+2025-03-06 11:30:20 - CSV file found: /home/ubuntu/LINUX_COURSE_PROJECT/DOWNLOADS/LINUX_COURSE_WORK-downloads/plants.csv
+2025-03-06 11:30:20 - Python script found: ../Q2/plant.py
+2025-03-06 11:30:21 - Requirements file found: ./requirements.txt
+2025-03-06 11:30:21 - .gitignore file found at ../../.gitignore
+2025-03-06 11:30:21 - Work/Q4/venv already exists in .gitignore
+2025-03-06 11:30:21 - Virtual environment already exists
+2025-03-06 11:30:21 - Activating virtual environment
+2025-03-06 11:30:21 - Installing requirements from ./requirements.txt
+Collecting argparse (from -r ./requirements.txt (line 1))
+  Using cached argparse-1.4.0-py2.py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: matplotlib in ./venv/lib/python3.12/site-packages (from -r ./requirements.txt (line 2)) (3.10.1)
+Requirement already satisfied: contourpy>=1.0.1 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (1.3.1)
+Requirement already satisfied: cycler>=0.10 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (4.56.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (1.4.8)
+Requirement already satisfied: numpy>=1.23 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (2.2.3)
+Requirement already satisfied: packaging>=20.0 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (24.2)
+Requirement already satisfied: pillow>=8 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (11.1.0)
+Requirement already satisfied: pyparsing>=2.3.1 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (3.2.1)
+Requirement already satisfied: python-dateutil>=2.7 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in ./venv/lib/python3.12/site-packages (from python-dateutil>=2.7->matplotlib->-r ./requirements.txt (line 2)) (1.17.0)
+Using cached argparse-1.4.0-py2.py3-none-any.whl (23 kB)
+Installing collected packages: argparse
+Successfully installed argparse-1.4.0
+2025-03-06 11:30:22 - Processing CSV file: /home/ubuntu/LINUX_COURSE_PROJECT/DOWNLOADS/LINUX_COURSE_WORK-downloads/plants.csv
+2025-03-06 11:30:22 - Processing plant: Rose
+2025-03-06 11:30:22 - Running ../Q2/plant.py for Rose with height=50 55 60 65 70, leaf_count=35 40 45 50 55, dry_weight=2.0 2.2 2.5 2.7 3.0
+2025-03-06 11:30:23 - PNG files moved to ./Diagrams/Rose/
+2025-03-06 11:30:23 - Script output:
+Plant: Rose
+Height data: [50.0, 55.0, 60.0, 65.0, 70.0] cm
+Leaf count data: [35, 40, 45, 50, 55]
+Dry weight data: [2.0, 2.2, 2.5, 2.7, 3.0] g
+Generated plots for Rose:
+Scatter plot saved as Rose_scatter.png
+Histogram saved as Rose_histogram.png
+Line plot saved as Rose_line_plot.png
+
+2025-03-06 11:30:23 - Script executed successfully for plant: Rose
+2025-03-06 11:30:23 - Processing plant: Tulip
+2025-03-06 11:30:23 - Running ../Q2/plant.py for Tulip with height=30 35 40 42, leaf_count=12 15 18 20, dry_weight=1.5 1.6 1.7 1.8
+2025-03-06 11:30:24 - PNG files moved to ./Diagrams/Tulip/
+2025-03-06 11:30:24 - Script output:
+Plant: Tulip
+Height data: [30.0, 35.0, 40.0, 42.0] cm
+Leaf count data: [12, 15, 18, 20]
+Dry weight data: [1.5, 1.6, 1.7, 1.8] g
+
+2025-03-06 11:30:24 - ERROR: Script failed for plant: Tulip with exit code: 1
+2025-03-06 11:30:24 - Processing plant: Sunflower
+2025-03-06 11:30:24 - Running ../Q2/plant.py for Sunflower with height=120 125 130 135, leaf_count=50 55 60 65, dry_weight=5.0 5.5 6.0 6.5
+2025-03-06 11:30:25 - PNG files moved to ./Diagrams/Sunflower/
+2025-03-06 11:30:25 - Script output:
+Plant: Sunflower
+Height data: [120.0, 125.0, 130.0, 135.0] cm
+Leaf count data: [50, 55, 60, 65]
+Dry weight data: [5.0, 5.5, 6.0, 6.5] g
+
+2025-03-06 11:30:25 - ERROR: Script failed for plant: Sunflower with exit code: 1
+2025-03-06 11:30:25 - Processing plant: Daffodil
+2025-03-06 11:30:25 - Running ../Q2/plant.py for Daffodil with height=40 45 50 55, leaf_count=15 18 20 22, dry_weight=1.8 2.0 2.2 2.5
+2025-03-06 11:30:26 - PNG files moved to ./Diagrams/Daffodil/
+2025-03-06 11:30:26 - Script output:
+Plant: Daffodil
+Height data: [40.0, 45.0, 50.0, 55.0] cm
+Leaf count data: [15, 18, 20, 22]
+Dry weight data: [1.8, 2.0, 2.2, 2.5] g
+
+2025-03-06 11:30:26 - ERROR: Script failed for plant: Daffodil with exit code: 1
+2025-03-06 11:30:26 - Processing plant: Lily
+2025-03-06 11:30:26 - Running ../Q2/plant.py for Lily with height=60 65 70, leaf_count=20 22 24, dry_weight=2.5 2.7 3.0
+2025-03-06 11:30:27 - PNG files moved to ./Diagrams/Lily/
+2025-03-06 11:30:27 - Script output:
+Plant: Lily
+Height data: [60.0, 65.0, 70.0] cm
+Leaf count data: [20, 22, 24]
+Dry weight data: [2.5, 2.7, 3.0] g
+
+2025-03-06 11:30:27 - ERROR: Script failed for plant: Lily with exit code: 1
+2025-03-06 11:30:27 - Deactivating virtual environment
+2025-03-06 11:30:27 - Script completed successfully
+2025-03-06 11:42:40 - Script started
+2025-03-06 11:42:40 - Python script path provided with -python flag: ../Q2/plant.py
+2025-03-06 11:42:40 - CSV file provided with -c flag: /home/ubuntu/DOWNLOADS/LINUX_COURSE_WORK-downloads/plants.csv
+2025-03-06 11:42:40 - ERROR: CSV file not found at /home/ubuntu/DOWNLOADS/LINUX_COURSE_WORK-downloads/plants.csv
+2025-03-06 11:44:04 - Script started
+2025-03-06 11:44:04 - Python script path provided with -python flag: ../Q2/plant.py
+2025-03-06 11:44:04 - CSV file provided with -c flag: /home/ubuntu/LINUX_COURSE_PROJECT/DOWNLOADS/LINUX_COURSE_WORK-downloads/plants.csv
+2025-03-06 11:44:04 - CSV file found: /home/ubuntu/LINUX_COURSE_PROJECT/DOWNLOADS/LINUX_COURSE_WORK-downloads/plants.csv
+2025-03-06 11:44:04 - Python script found: ../Q2/plant.py
+2025-03-06 11:44:04 - Requirements file found: ./requirements.txt
+2025-03-06 11:44:04 - .gitignore file found at ../../.gitignore
+2025-03-06 11:44:04 - Work/Q4/venv already exists in .gitignore
+2025-03-06 11:44:04 - Virtual environment already exists
+2025-03-06 11:44:04 - Activating virtual environment
+2025-03-06 11:44:04 - Installing requirements from ./requirements.txt
+Collecting argparse (from -r ./requirements.txt (line 1))
+  Using cached argparse-1.4.0-py2.py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: matplotlib in ./venv/lib/python3.12/site-packages (from -r ./requirements.txt (line 2)) (3.10.1)
+Requirement already satisfied: contourpy>=1.0.1 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (1.3.1)
+Requirement already satisfied: cycler>=0.10 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (4.56.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (1.4.8)
+Requirement already satisfied: numpy>=1.23 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (2.2.3)
+Requirement already satisfied: packaging>=20.0 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (24.2)
+Requirement already satisfied: pillow>=8 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (11.1.0)
+Requirement already satisfied: pyparsing>=2.3.1 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (3.2.1)
+Requirement already satisfied: python-dateutil>=2.7 in ./venv/lib/python3.12/site-packages (from matplotlib->-r ./requirements.txt (line 2)) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in ./venv/lib/python3.12/site-packages (from python-dateutil>=2.7->matplotlib->-r ./requirements.txt (line 2)) (1.17.0)
+Using cached argparse-1.4.0-py2.py3-none-any.whl (23 kB)
+Installing collected packages: argparse
+Successfully installed argparse-1.4.0
+2025-03-06 11:44:05 - Processing CSV file: /home/ubuntu/LINUX_COURSE_PROJECT/DOWNLOADS/LINUX_COURSE_WORK-downloads/plants.csv
+2025-03-06 11:44:05 - Processing plant: Rose
+2025-03-06 11:44:05 - Running ../Q2/plant.py for Rose with height=50 55 60 65 70, leaf_count=35 40 45 50 55, dry_weight=2.0 2.2 2.5 2.7 3.0
+2025-03-06 11:44:07 - PNG files moved to ./Diagrams/Rose/
+2025-03-06 11:44:07 - Script output:
+Plant: Rose
+Height data: [50.0, 55.0, 60.0, 65.0, 70.0] cm
+Leaf count data: [35, 40, 45, 50, 55]
+Dry weight data: [2.0, 2.2, 2.5, 2.7, 3.0] g
+Generated plots for Rose:
+Scatter plot saved as Rose_scatter.png
+Histogram saved as Rose_histogram.png
+Line plot saved as Rose_line_plot.png
+
+2025-03-06 11:44:07 - Script executed successfully for plant: Rose
+2025-03-06 11:44:07 - Processing plant: Tulip
+2025-03-06 11:44:07 - Running ../Q2/plant.py for Tulip with height=30 35 40 42, leaf_count=12 15 18 20, dry_weight=1.5 1.6 1.7 1.8
+2025-03-06 11:44:08 - PNG files moved to ./Diagrams/Tulip/
+2025-03-06 11:44:08 - Script output:
+Plant: Tulip
+Height data: [30.0, 35.0, 40.0, 42.0] cm
+Leaf count data: [12, 15, 18, 20]
+Dry weight data: [1.5, 1.6, 1.7, 1.8] g
+
+2025-03-06 11:44:08 - ERROR: Script failed for plant: Tulip with exit code: 1
+2025-03-06 11:44:08 - Processing plant: Sunflower
+2025-03-06 11:44:08 - Running ../Q2/plant.py for Sunflower with height=120 125 130 135, leaf_count=50 55 60 65, dry_weight=5.0 5.5 6.0 6.5
+2025-03-06 11:44:09 - PNG files moved to ./Diagrams/Sunflower/
+2025-03-06 11:44:09 - Script output:
+Plant: Sunflower
+Height data: [120.0, 125.0, 130.0, 135.0] cm
+Leaf count data: [50, 55, 60, 65]
+Dry weight data: [5.0, 5.5, 6.0, 6.5] g
+
+2025-03-06 11:44:09 - ERROR: Script failed for plant: Sunflower with exit code: 1
+2025-03-06 11:44:09 - Processing plant: Daffodil
+2025-03-06 11:44:09 - Running ../Q2/plant.py for Daffodil with height=40 45 50 55, leaf_count=15 18 20 22, dry_weight=1.8 2.0 2.2 2.5
+2025-03-06 11:44:10 - PNG files moved to ./Diagrams/Daffodil/
+2025-03-06 11:44:10 - Script output:
+Plant: Daffodil
+Height data: [40.0, 45.0, 50.0, 55.0] cm
+Leaf count data: [15, 18, 20, 22]
+Dry weight data: [1.8, 2.0, 2.2, 2.5] g
+
+2025-03-06 11:44:10 - ERROR: Script failed for plant: Daffodil with exit code: 1
+2025-03-06 11:44:10 - Processing plant: Lily
+2025-03-06 11:44:10 - Running ../Q2/plant.py for Lily with height=60 65 70, leaf_count=20 22 24, dry_weight=2.5 2.7 3.0
+2025-03-06 11:44:11 - PNG files moved to ./Diagrams/Lily/
+2025-03-06 11:44:11 - Script output:
+Plant: Lily
+Height data: [60.0, 65.0, 70.0] cm
+Leaf count data: [20, 22, 24]
+Dry weight data: [2.5, 2.7, 3.0] g
+
+2025-03-06 11:44:11 - ERROR: Script failed for plant: Lily with exit code: 1
+2025-03-06 11:44:11 - Deactivating virtual environment
+2025-03-06 11:44:11 - Script completed successfully
