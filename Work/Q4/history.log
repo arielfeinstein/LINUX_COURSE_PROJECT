@@ -1,0 +1,12 @@
+    1  git branch
+    2  git checkout -b BR_Q4
+    3  cd Work/Q4
+    4  touch q4.sh
+    5  chmod +x q4.sh 
+    6  cp ../Q2/plant.py .
+    7  cp ../Q2/requirements.txt .
+    8  cp ../../DOWNLOADS/LINUX_COURSE_WORK-downloads/plants.csv .
+    9  ./q4.sh 
+   10  filename="diagrams_question_4_$(date +"%Y-%m-%d_%H-%M-%S").tar.gz"
+   11  tar -czvf ~/LINUX_COURSE_PROJECT/BACKUPS/${filename} Diagrams
+   12  history > history.log

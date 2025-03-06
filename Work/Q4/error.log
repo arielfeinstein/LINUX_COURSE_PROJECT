@@ -1,0 +1,73 @@
+OpenBLAS WARNING - could not determine the L2 cache size on this system, assuming 256k
+OpenBLAS WARNING - could not determine the L2 cache size on this system, assuming 256k
+Traceback (most recent call last):
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/plant.py", line 64, in <module>
+    main()
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/plant.py", line 48, in main
+    plt.plot(weeks, height_data, marker='o', color='r')
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/pyplot.py", line 3827, in plot
+    return gca().plot(
+           ^^^^^^^^^^^
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 1777, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 297, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 494, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (5,) and (4,)
+OpenBLAS WARNING - could not determine the L2 cache size on this system, assuming 256k
+Traceback (most recent call last):
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/plant.py", line 64, in <module>
+    main()
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/plant.py", line 48, in main
+    plt.plot(weeks, height_data, marker='o', color='r')
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/pyplot.py", line 3827, in plot
+    return gca().plot(
+           ^^^^^^^^^^^
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 1777, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 297, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 494, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (5,) and (4,)
+OpenBLAS WARNING - could not determine the L2 cache size on this system, assuming 256k
+Traceback (most recent call last):
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/plant.py", line 64, in <module>
+    main()
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/plant.py", line 48, in main
+    plt.plot(weeks, height_data, marker='o', color='r')
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/pyplot.py", line 3827, in plot
+    return gca().plot(
+           ^^^^^^^^^^^
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 1777, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 297, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 494, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (5,) and (4,)
+OpenBLAS WARNING - could not determine the L2 cache size on this system, assuming 256k
+Traceback (most recent call last):
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/plant.py", line 64, in <module>
+    main()
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/plant.py", line 48, in main
+    plt.plot(weeks, height_data, marker='o', color='r')
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/pyplot.py", line 3827, in plot
+    return gca().plot(
+           ^^^^^^^^^^^
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 1777, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 297, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/LINUX_COURSE_PROJECT/Work/Q4/venv/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 494, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (5,) and (3,)
