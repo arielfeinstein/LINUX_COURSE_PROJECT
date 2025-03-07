@@ -1,0 +1,12 @@
+    1  mkdir C && cd C
+    2  touch WatermarkPhotos.java
+    3  touch Dockerfile
+    4  mkdir Diagrams
+    5  cp ../B/*.png Diagrams/
+    6  docker build -t java_img .
+    7  docker run --name question_5_c java_img
+    8  mkdir Watermarked_diagrams
+    9  docker cp question_5_c:/app/Diagrams/Rose_scatter.png Watermarked_diagrams
+   10  docker cp question_5_c:/app/Diagrams/Rose_histogram.png Watermarked_diagrams
+   11  docker cp question_5_c:/app/Diagrams/Rose_line_plot.png Watermarked_diagrams
+   12  history > history.log
