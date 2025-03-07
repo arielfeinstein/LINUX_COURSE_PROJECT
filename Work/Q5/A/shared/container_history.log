@@ -1,0 +1,10 @@
+    1  nano plant.py
+    2  apt update && apt install -y nano && apt install -y imagemagick
+    3  clear
+    4  touch 1.txt
+    5  rm 1.txt
+    6  clear
+    7  nano plant.py
+    8  python3 plant.py 
+    9  convert *.png +append appended_diagrams.png  
+   10  history > container_history.log

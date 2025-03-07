@@ -1,0 +1,10 @@
+    1  mkdir B && cd B
+    2  cp ~/LINUX_COURSE_PROJECT/Work/Q2/plant.py .
+    3  cp ~/LINUX_COURSE_PROJECT/Work/Q2/requirements.txt .
+    4  touch Dockerfile
+    5  docker build -t improved_plant_script .
+    6  docker run --name question_b_container improved_plant_script
+    7  docker cp question_b_container:/app/Rose_scatter.png .
+    8  docker cp question_b_container:/app/Rose_histogram.png .
+    9  docker cp question_b_container:/app/Rose_line_plot.png .
+   10  history > history.log
